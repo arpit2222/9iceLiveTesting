@@ -1,0 +1,35 @@
+{
+  "name": "9icewebsite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "bootstrap": "^5.2.3",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "firebase": "^9.16.0",
+    "next": "13.1.1",
+    "next-redux-wrapper": "^8.1.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.1",
+    "react-icons": "^4.7.1",
+    "react-planet": "^1.0.1-ie11",
+    "react-rating": "^2.0.5",
+    "react-redux": "^8.0.5",
+    "recharts": "^2.4.3",
+    "redux": "^4.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}
