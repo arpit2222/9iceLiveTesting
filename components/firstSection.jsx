@@ -52,7 +52,7 @@ function FirstSection() {
                   <div className='py-2 pr-4'>
                   {allButtons.map((button,i)=> 
                 currentProduct.id==i?
-                <Dropdown.Item className='m-2 bg-white p-1 w-[100%] rounded-lg '>
+                <Dropdown.Item key={i} className='m-2 bg-white p-1 w-[100%] rounded-lg '>
                   <div className={button.selectedStyle}>{button.name}</div>
                 </Dropdown.Item>:
                 <Dropdown.Item key={i} className='m-2 bg-white p-1 rounded-lg hover:scale-105 font-semibold'>
@@ -81,6 +81,7 @@ function FirstSection() {
           <div>
           <Image
             src={currentProduct.imgC}
+            alt="9iceImage"
             // onMouseOver={e => (e.currentTarget.src = '/background/boxOpened.png')}
             // onMouseLeave={e=> (e.currentTarget.src = '/background/boxOpened.png')}
             className="mt-8 scale-[80%]"
@@ -102,7 +103,7 @@ function FirstSection() {
           <div className='rounded-lg m-auto mt-4 p-1'>
             {allButtons.map((button,i)=> 
             currentProduct.id==i?
-            <div className='m-2 bg-white p-1 w-[100%] rounded-lg '>
+            <div key={i} className='m-2 bg-white p-1 w-[100%] rounded-lg '>
               <div className={button.selectedStyle}>{button.name}</div>
             </div>:
             <div key={i} className='m-2 bg-white p-1 rounded-lg hover:scale-105 font-semibold'>
