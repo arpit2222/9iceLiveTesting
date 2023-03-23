@@ -180,19 +180,31 @@ export default function Home() {
          {/* <div className='text-5xl mt-0 mb-4 font-[Georgia]'>Our Products</div>  */}
          <Slider {...settings}>
           <div>
-            <img src="/background/americanFinal.png" className='w-[400px]'/>
+            <img src="/background/slide1.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/appleFinal.png" className='w-[400px]'/>
+            <img src="/background/slide9.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/dubaiFinal.png" className='w-[400px]'/>
+            <img src="/background/slide2.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/lipstickFinal.png" className='w-[400px]'/>
+            <img src="/background/slide8.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/paanFinal.png" className='w-[400px]'/>
+            <img src="/background/slide3.png" className='w-[400px]'/>
+          </div>
+          <div>
+            <img src="/background/slide7.png" className='w-[400px]'/>
+          </div>
+          <div>
+            <img src="/background/slide4.png" className='w-[400px]'/>
+          </div>
+          <div>
+            <img src="/background/slide6.png" className='w-[400px]'/>
+          </div>
+          <div>
+            <img src="/background/slide5.png" className='w-[400px]'/>
           </div>
         </Slider>
         </Col>
