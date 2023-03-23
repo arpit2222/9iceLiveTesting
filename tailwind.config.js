@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      abc:['Special Elite', 'cursive'],
+      second:['Philosopher', 'sans-serif']
+    },
   },
   plugins: [],
 }
