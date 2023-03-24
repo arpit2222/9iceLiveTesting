@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
+import { Image } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -55,8 +56,8 @@ function OffcanvasExample() {
         <Container className='flex justify-start text-white font-semibold'>
             <div className='flex'>
             <Link href="https://9ice.in">
-            <img
-              alt=""
+            <Image
+              alt="9ice"
               src="/logo9ice.jpeg"
               width="60"
               height="60"
@@ -67,8 +68,8 @@ function OffcanvasExample() {
 
             <div>
               <Link href="https://instagram.com/9ice.in?igshid=MTIzZWQxMDU=" target="_blank">
-                <img
-              alt=""
+                <Image
+              alt="9ice"
               src="/background/insta.png"
               width="30"
               height="30"

@@ -3,7 +3,7 @@ import OffcanvasExample from '../components/navbar'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import Image from 'react-bootstrap/Image'
+import Image  from 'react-bootstrap/Image'
 import Link from 'next/link';
 import { Button, Modal } from 'react-bootstrap'
 import FirstSection from '../components/firstSection'
@@ -112,7 +112,7 @@ export default function Home() {
         
           <p className='mt-8 text-blue-900 text-4xl font-extrabold font-[Georgia]'>Rolling Paper</p>
           <Link href="#rolling_paper">
-          <Image 
+          <Image alt="9ice"  
           src="/background/twinsFinal.png"
           className='m-auto h-[200px] sm:h-[350px] hover:scale-105'
           />
@@ -121,7 +121,7 @@ export default function Home() {
         <Col xs={12} lg={4} className='bg-red-100 text-center'>
         <p className='mt-8 text-red-900 text-4xl font-extrabold font-[Georgia]'>Cigarillos</p>
         <Link href="#cigarillos">
-          <Image 
+          <Image alt="9ice"  
           src="/background/cigFinal.png"
           className='m-auto h-[200px] sm:h-[400px] hover:scale-105'
           />
@@ -130,7 +130,7 @@ export default function Home() {
         <Col xs={12} lg={4} className='bg-green-100 text-center'>
         <p className='mt-8 text-green-900 text-4xl font-extrabold font-[Georgia]'>Cones</p>
         <Link href="#cones">
-          <Image 
+          <Image alt="9ice" 
           src="/background/coneFinal.png"
           className='m-auto h-[200px] sm:h-[400px] hover:scale-105'
           />
@@ -180,31 +180,31 @@ export default function Home() {
          {/* <div className='text-5xl mt-0 mb-4 font-[Georgia]'>Our Products</div>  */}
          <Slider {...settings}>
           <div>
-            <img src="/background/slide1.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide1.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/slide9.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide9.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/slide2.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide2.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/slide8.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide8.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/slide3.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide3.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/slide7.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide7.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/slide4.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide4.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/slide6.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide6.png" className='w-[400px]'/>
           </div>
           <div>
-            <img src="/background/slide5.png" className='w-[400px]'/>
+            <Image alt="9ice" src="/background/slide5.png" className='w-[400px]'/>
           </div>
         </Slider>
         </Col>
