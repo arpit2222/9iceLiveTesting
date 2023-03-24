@@ -217,7 +217,7 @@ export default function Home() {
          <div className='w-[98%] md:w-[80%] m-auto py-4 mb-8 rounded-lg bg-white opacity-[80%] text-black'>
          <div className='text-3xl font-semibold my-4' id='contact_us'>Connect With Us</div>
          <div className='text-lg w-[90%] m-auto mb-4 font-semibold'>
-          We'd love to hear from you! Whether you have a question, a suggestion, or just hi, there are several ways to get in touch with us.<br/><br/>
+          We would love to hear from you! Whether you have a question, a suggestion, or just hi, there are several ways to get in touch with us.<br/><br/>
 
           Follow us on Instagram <Link href="https://instagram.com/9ice.in?igshid=MTIzZWQxMDU=" target="_blank" className='font-semibold text-[#E0406F]'> @9ice.in</Link> for the latest updates on our products and promotions.
           Use the contact form on our website to send us a message directly.</div>
